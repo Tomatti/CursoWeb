@@ -1,1 +1,1 @@
-# CursoWeb
+Repositorio Criado Apenas Para estudo de JavaScript.
