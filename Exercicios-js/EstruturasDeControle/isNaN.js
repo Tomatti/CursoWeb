@@ -1,27 +1,27 @@
 
-const imprimirresultado = function (nota) {
-    if (isNaN(nota) === false) {
-        switch (Math.floor(nota)) {
+const imprimirresultado = function (Nota) {
+    if (isNaN(Nota) === false) {
+        switch (Math.floor(Nota)) {
             case 10:
             case 9:
-                console.log('nota:', nota, 'quadro de honra')
+                console.log('Nota:', Nota, 'quadro de honra')
                 break
             case 7: case 8:
-                console.log('nota:', nota, 'Aprovado')
+                console.log('Nota:', Nota, 'Aprovado')
                 break
             case 6: case 5:
-                console.log('nota:', nota, 'Recuperação')
+                console.log('Nota:', Nota, 'Recuperação')
                 break
             case 4: case 3: case 2: case 1: case 0:
-                console.log('nota:', nota, 'Reprovado')
+                console.log('Nota:', Nota, 'Reprovado')
                 break
             default:
-                console.log('nota:', nota, 'Nota Invalida')
+                console.log('Nota:', Nota, 'Nota Invalida')
 
 
         }
     } else {
-        console.log(nota, 'Não e um Numero')
+        console.log(Nota, typeof(Nota), 'Não e um Numero')
     }
 
 }
